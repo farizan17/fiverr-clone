@@ -15,6 +15,7 @@ body {
 .main-wrapper {
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 100px;
 }
 .main-header {
   width: 100%;
@@ -189,6 +190,7 @@ body {
   height: 95px;
   align-items: center;
   background-color: #fafafa;
+  margin-bottom: 96px;
 }
 .trusted-wrapper {
   max-width: 1440px;
@@ -205,6 +207,94 @@ body {
 .trusted-text {
   color: #c2c2c5;
 }
+.multiple-carousel {
+  width: 1440px;
+  height: 410px;
+  margin: auto;
+  padding: 0 32px;
+  margin-bottom: 96px;
+}
+.carousel-wrapper {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.popular-carousel {
+  padding-bottom:24px ;
+}
+.carousel-image {
+  display: flex;
+  justify-content: space-between;
+}
+.talent-content {
+  height: 732px;
+  width: 100%;
+}
+.talent-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #F1FDF7;
+}
+.talent-wrapper {
+  width: 1440px;
+  height: 100%;
+  padding: 96px 16px;
+  margin: auto;
+}
+.talent-splitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.talent-img {
+  padding: 0 16px;
+}
+.talent-text {
+  padding: 0 158px 0 16px;
+  height: 100%;
+}
+.talent-text ul {
+  margin: 0;
+  padding: 0;
+}
+.talent-sub-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+.talent-sub-text span {
+  margin-right: 10px;
+}
+.talent-text p {
+  margin: 0;
+  padding-bottom: 24px;
+  font-size: 18px;
+
+}
+.talent-title {
+  margin: 0;
+  padding-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 912px) {
   .popular-category {
