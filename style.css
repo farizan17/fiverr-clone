@@ -221,7 +221,7 @@ body {
   flex-direction: column;
 }
 .popular-carousel {
-  padding-bottom:24px ;
+  padding-bottom: 24px;
 }
 .carousel-image {
   display: flex;
@@ -230,11 +230,12 @@ body {
 .talent-content {
   height: 732px;
   width: 100%;
+  margin-bottom: 96px;
 }
 .talent-bg {
   width: 100%;
   height: 100%;
-  background-color: #F1FDF7;
+  background-color: #f1fdf7;
 }
 .talent-wrapper {
   width: 1440px;
@@ -275,26 +276,53 @@ body {
   margin: 0;
   padding-bottom: 24px;
   font-size: 18px;
-
 }
 .talent-title {
   margin: 0;
   padding-bottom: 24px;
 }
+.explore-content {
+  width: 1440px;
+  height: 386px;
+  padding: 0 32px;
+  margin: auto;
+  margin-bottom: 96px;
+}
+.explore-splitter {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.explore-title {
+  padding-bottom: 24px;
+  margin-bottom: 40px;
+}
+.explore-category {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.explore-category li {
+  height: 142px;
+  width: 268px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0 10px;
+}
+.explore-category li a {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.explore-icon {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  margin-bottom: 15px;
+}
 
 @media (max-width: 912px) {
   .popular-category {
